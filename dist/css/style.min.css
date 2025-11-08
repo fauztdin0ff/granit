@@ -1119,7 +1119,7 @@ Works
 }
 .works__items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
 }
 @media (width < 980px) {
@@ -1140,6 +1140,10 @@ Works
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  background: oklch(0.21 0.034 264.665);
+}
+.works__item img {
+  opacity: 0.8;
 }
 @media (hover: hover) {
   .works__item:hover img {
