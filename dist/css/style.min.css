@@ -1332,6 +1332,11 @@ Contacts
     color: #2cb742;
   }
 }
+@media (hover: hover) {
+  .contacts__group-social:last-child:hover {
+    color: #7b2ee0;
+  }
+}
 .contacts__group-icon {
   margin-top: 4px;
 }
